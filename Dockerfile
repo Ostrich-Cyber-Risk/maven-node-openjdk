@@ -6,7 +6,7 @@ RUN curl -sL https://deb.nodesource.com/setup_20.x | bash -
 RUN apt-get install -y nodejs
 RUN apt-get install -y \
   build-essential \
-  openjdk-11-jdk \
+  openjdk-21-jdk \
   maven
 
 CMD /bin/bash 
